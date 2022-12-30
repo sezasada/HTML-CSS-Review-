@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <script src="jQuery.js" charset="utf-8"></script>
-        <script src="script.js" charset="utf-8"></script>
+        <script src="script.js" defer></script>
         <link href="style.css" rel="stylesheet">
         <title>Earnings Report Page</title>
     </head>
@@ -13,25 +13,15 @@
         </header>
         <main>
             <p>Enter Stock Ticker</p>
-            <input placeholder="Ticker" id="ticker">
-            <button id="submitButton">Submit</button>
-            <table>
-                <thead>
-                    <tr>
-                        <th>PE Ratio</th>
-                    </tr>
-                    <tr>
-                        <th>Revenue</th>
-                    </tr>
-                    <tr>
-                        <th>Guidance</th>
-                    </tr>
-                    <tr>
-                        <th>Chart</th>
-                    </tr>
-                </thead>
+            <button id="button">Show Revenue</button>
+            <table id="revenue-table">
+              <tr>
+                <th>Company</th>
+                <th>Revenue</th>
+                <th>P/E Ratio</th>
+                <th>Guidance</th>
+              </tr>
             </table>
-
         </main>
     </body>
 </html>
