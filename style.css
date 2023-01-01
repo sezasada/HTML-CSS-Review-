@@ -4,3 +4,27 @@ body {
 header {
     text-align: center;
 }
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    width: 50%;
+}
+  
+th {
+    background-color: #4caf50;
+    color: white;
+    text-align: left;
+    padding: 8px;
+}
+  
+td {
+    text-align: center;
+    padding: 8px;
+    border: 1px solid #ddd;
+    vertical-align: middle;
+}
+  
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
