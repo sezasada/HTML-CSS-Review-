@@ -19,11 +19,8 @@ header {
     cursor: pointer;
 }
 
-p {
-    text-align: center;
-} 
 
-table {
+#revenue-table {
     border-collapse: collapse;
     border: 1px solid #ddd;
     margin: 0 auto;
@@ -41,7 +38,6 @@ td {
     text-align: center;
     padding: 8px;
     border: 3px solid #C0C0C0;
-    vertical-align: middle;
 }
   
 tr:nth-child(even) {
