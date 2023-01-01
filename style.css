@@ -1,18 +1,37 @@
 body {
+    font-family: 'Times New Roman', Times, serif;
     background-color: lightgrey;
 }
 header {
     text-align: center;
 }
 
+#button-div {
+    text-align: center;
+    background-color: grey;
+    margin: 0 auto;
+    width: 48%;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+}
+
+
+p {
+    text-align: center;
+} 
+
 table {
     border-collapse: collapse;
     border: 1px solid #ddd;
+    margin: 0 auto;
     width: 50%;
 }
   
 th {
-    background-color: #4caf50;
+    background-color: grey;
     color: white;
     text-align: left;
     padding: 8px;
