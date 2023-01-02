@@ -8,6 +8,7 @@ header {
 }
 
 #button-div {
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
     background-color: grey;
     margin: 0 auto;
