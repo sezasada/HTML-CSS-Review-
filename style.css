@@ -12,7 +12,7 @@ header {
     text-align: center;
     background-color: grey;
     margin: 0 auto;
-    width: 48%;
+    width: 800px;
     color: white;
     font-size: 16px;
     padding: 12px 24px;
@@ -25,7 +25,7 @@ header {
     border-collapse: collapse;
     border: 1px solid #ddd;
     margin: 0 auto;
-    width: 50%;
+    width: 850px;
 }
   
 th {
